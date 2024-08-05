@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Starter Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
+  </head>
+  <body>
+  <header id="header">
+    <section id="top_header" 
+    class="bg-primary py-3 text-white d-none d-md-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 pt-2" style="display: flex;flex-direction: row; gap: 10px;">
+            <i class="fa-solid fa-phone" style="margin-top: 2 px;"></i>
+            <h6>533 088 8122</h6>
+          </div>
+          <div class="col-md-4 pt-2" style="display: flex;flex-direction: row; gap: 10px;">
+            <i class="fa-solid fa-envelope" style="margin-top: 2 px;"></i>
+            <h6>aleynatombas04@gmail.com</h6>
+          </div>
+          <div class="col-md-4 text-end">
+            <a href="#" class="btn btn-primary text-white" style="background-color:#3b5990;"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="btn btn-primary text-white" style="background-color:#823b90;"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="btn btn-primary text-white" style="background-color:#3b7c90;"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="btn btn-primary text-white" style="background-color:#3b9085;"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 sticky-top">
+
+      <div class="container">
+        <a href="#" class="navbar-brand">Learn Code</a>
+        <button 
+        class="navbar-toggler"
+         type="button"
+         data-bs-toggle="collapse" 
+         data-bs-target="#navmenu"
+         >
+          <span class="navbar-toggler-icon"></span></button>
+        <div id="navmenu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#hera_area" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#service" class="nav-link">Service</a></li>
+            <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
+            <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+            <li class="nav-item"><a href="#analysis" class="nav-link">Analysis</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section id="hero_area" class="py-5 bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <h3>Let's Learn Coding</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, in!</p>
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#join">Join Now!</a>
+          <div class="modal fade" id="join">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text-dark">Join Now</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Fill out this form </p>
+                  <form >
+                    <div class="mb-3">
+                      <label for="name" class="form-label">Name</label>
+                      <input type="text" class="form-control" placeholder="Name your name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" class="form-control" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                      <label for="number" class="form-label">Phone</label>
+                      <input type="text" class="form-control" placeholder="Enter your phone">
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button class="btn btn-primary" type="button">Submit</button>
+                  <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 pt-4">
+          <img src="img.webp" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5" id="service">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center mb-3">
+          <div class="card">
+            <div class="card-body">
+              <i class="fa-solid fa-gear"></i>
+              <h4>Easy to use</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Expedita consequuntur inventore ipsam,
+                 minima excepturi commodi accusamus? Possimus molestias consectetur earum?</p>
+                 <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div> 
+          <div class="col-md-4 text-center mb-3">
+            <div class="card">
+              <div class="card-body">
+                <i class="fa-solid fa-chart-line"></i>
+                <h4>Awesome Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Expedita consequuntur inventore ipsam,
+                minima excepturi commodi accusamus? Possimus molestias consectetur earum?</p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+        </div>
+          <div class="col-md-4 text-center mb-3">
+            <div class="card">
+              <div class="card-body">
+                <i class="fa-solid fa-users"></i>
+                <h4>Easy to customize</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita consequuntur inventore ipsam,
+                  minima excepturi commodi accusamus? Possimus molestias consectetur earum?</p>
+                  <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <section id="analysis" class="bg-light py-5">
+    <div class="container">
+     <div class="row">
+      <div class="col-md-6">
+        <img src="img3.png" class="img-fluid" alt="">
+      </div>
+      <div class="col-md-6 align-self-center mt-3">
+        <h3>Analysis for Business Opprtunities</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           Ipsa ullam tempora quidem, qui delectus temporibus alias beatae nulla voluptates saepe omnis voluptatum illum,
+            asperiores neque dolorum exercitationem magnam eveniet non?</p>
+            <a href="#" class="btn btn-primary">See More Information</a>
+      </div>
+     </div>
+    </div>
+  </section>
+  <section id="team" class="py-5">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col-md-8 offset-md-2">
+          <h2>Our Team</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Placeat quas sint qui repellendus illum ipsam fugit praesentium voluptatibus 
+             laborum totam porro fugiat, numquam unde eos.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <img src="image.png" class="img-fluid mb-3" alt="">
+              <h4>Jennifer Clark</h4>
+              <p>Web Designer</p>
+              <a href="#" class="btn btn-primary"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="btn btn-primary"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" class="btn btn-primary"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <img src="image2.png" class="img-fluid mb-3" alt="">
+              <h4>Elena Stark</h4>
+              <p>IOS Developer</p>
+              <a href="#" class="btn btn-primary"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="btn btn-primary"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" class="btn btn-primary"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <div class="card-body text-center">
+              <img src="image3.png" class="img-fluid mb-3" alt="">
+              <h4>Tonny Rowena</h4>
+              <p>Front-end Developer</p>
+              <a href="#" class="btn btn-primary"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" class="btn btn-primary"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#" class="btn btn-primary"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="faq" class="bg-light py-5"> 
+  <div class="container"> 
+    <div class="row">
+      <div class="col-md-5">
+        <img src="img2.webp" class="img-fluid" alt="">
+      </div>
+      <div class="col-md-7 align-self-center pt-3" >
+        <h2>FAQ Area</h2>
+        <div class="accordion mt-3">
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#acc_01">Accordion One</button>
+            </div>
+            <div id="acc_01" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Aliquam numquam in quos neque deleniti enim laboriosam amet ut debitis aspernatur voluptate perferendis, doloremque tempore quam.
+                  Rem voluptatum ducimus ad corrupti.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#acc_02">Accordion Two</button>
+            </div>
+            <div id="acc_02" class="accordion-collapse collapse ">
+              <div class="accordion-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Aliquam numquam in quos neque deleniti enim laboriosam amet ut debitis aspernatur voluptate perferendis, doloremque tempore quam.
+                  Rem voluptatum ducimus ad corrupti.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#acc_03">Accordion Three</button>
+            </div>
+            <div id="acc_03" class="accordion-collapse collapse ">
+              <div class="accordion-body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Aliquam numquam in quos neque deleniti enim laboriosam amet ut debitis aspernatur voluptate perferendis, doloremque tempore quam.
+                  Rem voluptatum ducimus ad corrupti.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <section>
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Tenetur, nemo! A saepe quae nam accusantium?</p>
+               <form class="py-3 text-start">
+                <div class="row mb-3">
+                  <div class="col-md-6 mb-3">
+                    <input type="text" placeholder="Enter Your Name" class="form-control">
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <input type="email" placeholder="Enter Your Email" class="form-control">
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control" placeholder="Submit">
+                </div>
+                <div class="mb-3">
+                  <textarea name="" id="" cols="20" rows="8" placeholder="Enter Your Message" class="form-control"></textarea>
+                </div>
+                <button type="button" class="btn btn-primary">Send Message</button>
+               </form>
+          </div>
+          <div class="col-md-5">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.364186272192!2d29.000459400000008!3d41.0391643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7761a3b7de3%3A0xdcd33e38cf3b830b!2zRG9sbWFiYWjDp2UgU2FyYXnEsQ!5e0!3m2!1str!2str!4v1722702050471!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" 
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <footer class="pt-4 pb-2 bg-secondary text-white text-center">
+    <div class="container">
+      <div class="col-md-12">
+        <p>Copyrighy &copy; 2024 All Right Reserved</p>
+      </div>
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+  </body>
+</html>
+</head>
